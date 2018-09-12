@@ -1,0 +1,276 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Style*/
+
+body{
+	font: 16px/18px arial, sans-serif;
+	background-color: #effff0;
+}
+
+.container{
+	width: 800px;
+	margin: auto;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+	0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header .kontak{
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #15a51f;
+	text-align: center;
+	padding: 10px;
+}
+
+.foto{
+	height: 200px;
+	width: 200px;
+	margin-top: 20px;
+	margin-left: 70px;
+	margin-bottom: 20px;
+	background-image: url(img/saya.png);
+	background-size: cover;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+	0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 100px;
+	float: left;
+}
+
+.icon {
+width: 50px;
+margin-left: 20px;
+float: left;
+}
+
+.icon .gmail{
+	height: 30px;
+	width: 30px;
+	background-size: cover;
+	margin-bottom: 10px;
+	background-image: url(img/gmail.svg);
+	margin-top: 20px;
+}
+
+.icon .dribble{
+	height: 30px;
+	width: 30px;
+	background-size: cover;
+	margin-bottom: 10px;
+	background-image: url(img/dribble.svg);
+}
+
+.icon .linkedin{
+	height: 30px;
+	width: 30px;
+	background-size: cover;
+	margin-bottom: 10px;
+	background-image: url(img/linkedin.svg);
+}
+
+.icon .github{
+	height: 30px;
+	width: 30px;
+	background-size: cover;
+	margin-bottom: 10px;
+	background-image: url(img/github.svg);
+}
+
+.icon .twitter{
+	height: 30px;
+	width: 30px;
+	background-size: cover;
+	margin-bottom: 10px;
+	background-image: url(img/twitter.svg);
+}
+
+.contact a{
+	text-decoration: none;
+	font: 16px/18px latto,arial, sans-serif;
+	font-weight: bold;
+	line-height: 45px;
+}
+
+.contact a:visited {
+	font: 12px/30px arial;
+    background-color: #f44336;
+    color: #22b72e;
+    text-align: left; 
+    text-decoration: none;
+}
+
+.contact a:hover,a:active{
+	background-color: #a0ffa8;
+}
+
+.identitas .nama{
+	color: #15a51f;
+	font: 16px/18px latto,arial, sans-serif;
+	font-weight: bold;
+	margin-left: 90px;
+}
+.identitas .ttl{
+	color: #15a51f;
+	font: 12px/18px latto,arial, sans-serif;
+	font-weight: normal;
+	margin-left: 100px;
+}
+
+.education{
+	width: 50%;
+	float: left;
+	margin-left: 50px;
+	padding-left: 50px;
+
+}
+.education .formal{
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #15a51f;
+	text-align: left;
+	padding: 5px;
+	background-color: #a0ffa8;
+}
+
+.education .sekolah{
+	font-size: 14px;
+	font-weight: bold;
+	color: #15a51f;
+	text-align: left;
+	padding: 5px;
+}
+
+.organization{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.organization .organisasi{
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #15a51f;
+	text-align: left;
+	padding: 5px;
+	background-color: #a0ffa8;
+}
+
+.organization .gabut{
+	font-size: 14px;
+	font-weight: bold;
+	color: #15a51f;
+	text-align: left;
+	padding: 5px;
+}
+
+.pengalaman{
+	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.pengalaman .experience{
+	margin-top: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	background-color: #15a51f;
+}
+
+.pengalaman .exp{
+	font-size: 14px;
+	font-weight: bold;
+	color: #15a51f;
+	text-align: center;
+	padding: 5px;
+	
+}
+
+.skills{
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.skills .sekil{
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	background-color: #15a51f;
+}
+
+.skills .keahlian{
+	font-size: 14px;
+	font-weight: bold;
+	color: #15a51f;
+	text-align: center;
+	padding: 5px;
+	
+}
+/*clear fix*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+				}
+			}
+		}
